@@ -17,14 +17,14 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Hanrocky</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} text-white-100`}>
             I develop 3D visuals, mobile <br className="sm:block hidden" /> and
             web applications
           </p>
         </div>
       </div>
       <ComputersCanvas />
-      <div className="absolute bottom-32 xs:bottom-10  w-full flex justify-center items-center ">
+      <div className="absolute bottom-10 w-full flex justify-center items-center ">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
             <motion.div
