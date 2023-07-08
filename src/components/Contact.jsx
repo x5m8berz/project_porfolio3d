@@ -29,7 +29,6 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log(form.email);
     emailjs
       .send(
         "service_l9s1kya",
